@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "focustime",
+    "name": "Focustime",
     "slug": "snack-438c88e9-99d0-463a-a42e-1775c8d930a4",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
