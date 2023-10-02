@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
+    "@react-navigation/native": "^6.1.8",
     "eas": "^0.1.0",
     "es": "^0.8.0",
     "expo": "~48.0.18",

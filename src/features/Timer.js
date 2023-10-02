@@ -25,11 +25,11 @@ export const Timer = ({ focusSubject, clearSubject, onTimerEnd }) => {
   const [minutes, setMinutes] = useState();
 
   const onEnd = (reset) => {
+    onTimerEnd(focusSubject);
     Vibration.vibrate(PATTERN);
     setIsStarted(false);
     setProgress(1);
     reset();
-    onTimerEnd(focusSubject);
   };
 
   return (
